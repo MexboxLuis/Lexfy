@@ -1,11 +1,11 @@
-# Welcome to LEXFY 📸✨
+# Welcome to Lexfy 📸✨
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white)](https://developer.android.com/jetpack/compose)
 [![Python](https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
-Welcome to the **LEXFY** repository. This is a native Android application that integrates Optical Character Recognition (OCR) and AI-powered image generation into a cohesive platform. It allows users to extract text from physical documents using advanced machine learning models and generate new visual content through a conversational chat interface.
+Welcome to the **Lexfy** repository. This is a native Android application that integrates Optical Character Recognition (OCR) and AI-powered image generation into a cohesive platform. It allows users to extract text from physical documents using advanced machine learning models and generate new visual content through a conversational chat interface.
 
 ---
 
@@ -71,8 +71,8 @@ Welcome to the **LEXFY** repository. This is a native Android application that i
 ### 1. Backend Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/LEXFY.git
-cd LEXFY/app/src/main/java/com/example/yoloapp/ui/model
+git clone https://github.com/MexboxLuis/Lexfy.git
+cd Lexfy/app/src/main/java/com/example/yoloapp/ui/model
 ```
 
 ```bash
