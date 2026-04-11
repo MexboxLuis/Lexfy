@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.yoloapp"
+    namespace = "com.example.lexfy"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.yoloapp"
+        applicationId = "com.example.lexfy"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

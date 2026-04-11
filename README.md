@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
-Welcome to the **Lexfy** repository. This is a native Android application that integrates Optical Character Recognition (OCR) and AI-powered image generation into a cohesive platform. It allows users to extract text from physical documents using advanced machine learning models and generate new visual content through a conversational chat interface.
+Welcome to the **Lexfy** repository. This is a native Android application that integrates Optical Character Recognition (OCR) and AI-powered image generation into a cohesive platform. It allows users to extract text from physical documents using OCR models such as EasyOCR and GOT-OCR2_0, and generate images from text prompts using Together AI (FLUX.1-schnell) through a conversational chat interface.
 
 ---
 
@@ -13,7 +13,7 @@ Welcome to the **Lexfy** repository. This is a native Android application that i
 
 | Feature                | Details |
 | ---------------------- | ------- |
-| 🎯 **Purpose**         | A centralized tool for precise text extraction from images and AI-driven image generation. |
+| 🎯 **Purpose**         | A centralized tool for text extraction from images using OCR models and image generation from text prompts using AI services. |
 | ⚙️ **Architecture**     | Client-Server architecture. The Android client communicates via HTTP with a local Python/Flask backend hosting the AI models. |
 | 💾 **Data Management** | User authentication, document storage, and chat history synchronization are securely handled via Firebase. |
 | 🔄 **Core Operations** | Capture/upload photos for OCR, edit extracted text, prompt image generation, and manage personal document libraries. |
@@ -57,12 +57,30 @@ Welcome to the **Lexfy** repository. This is a native Android application that i
 
 ---
 
-## 📸 Screenshots
+## 📸  Demos
 
-- ![Welcome & Login](assets/WelcomeLogin.jpeg)
-- ![OCR Scanner](assets/OCRScanner.jpeg)
-- ![Dashboard](assets/HomeDashboard.jpeg)
-- ![Generator](assets/ImageGenerator.jpeg)
+### 🔐 Authentication
+<p align="center">
+  <img src="assets/lexfy_register.gif" width="250"/>
+</p>
+
+### 🧾 OCR (Image → Text)
+<p align="center">
+  <img src="assets/lexfy_easyocr.gif" width="250"/>
+  <img src="assets/lexfy_gotocr2.gif" width="250"/>
+</p>
+
+### 🖼️ Image Generation (Text → Image)
+<p align="center">
+  <img src="assets/lexfy_image_generation_chats.gif" width="215"/>
+  <img src="assets/lexfy_image_generation_chatting.gif" width="250"/>
+</p>
+
+### 📱 UX & Flow
+<p align="center">
+  <img src="assets/lexfy_ocr_ux.gif" width="250"/>
+  <img src="assets/lexfy_another_user.gif" width="250"/>
+</p>
 
 ---
 
@@ -89,12 +107,22 @@ python finalApp.py
 
 ### 2. Android Setup
 
-- Open in Android Studio
-- Add Firebase config
-- Run emulator
+- Open the project in Android Studio
 
----
+#### Firebase Configuration
+- Create a Firebase project
+- Add an Android app in Firebase Console
+- Download the google-services.json file
+- Place it inside the app/ directory
+- Enable:
+    - Authentication
+    - Firestore Database
+    - Storage
 
-## 💡 Final Notes
+#### API Configuration
+- Add your Together AI API key in:
+  app/src/main/java/com/example/lexfy/ui/model/config.py
 
-This project demonstrates integration of OCR + generative AI inside a mobile app.
+#### Run
+- Sync Gradle
+- Run on emulator or physical device
