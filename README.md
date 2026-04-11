@@ -66,13 +66,15 @@ Welcome to the **Lexfy** repository. This is a native Android application that i
 
 ### 🧾 OCR (Image → Text)
 <p align="center">
-  <img src="assets/lexfy_easyocr.gif" width="250"/>
-  <img src="assets/lexfy_gotocr2.gif" width="250"/>
+  <img src="assets/lexfy_gotocr2.gif" width="215"/>
+  <img src="assets/lexfy_easyocr.gif" width="215"/>
+  <img src="assets/lexfy_gotocr2_image.gif" width="215"/>
+  <img src="assets/lexfy_easyocr_image.gif" width="215"/>
 </p>
 
 ### 🖼️ Image Generation (Text → Image)
 <p align="center">
-  <img src="assets/lexfy_image_generation_chats.gif" width="215"/>
+  <img src="assets/lexfy_image_generation_chats.gif" width="250"/>
   <img src="assets/lexfy_image_generation_chatting.gif" width="250"/>
 </p>
 
