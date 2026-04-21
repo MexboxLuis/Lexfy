@@ -48,16 +48,18 @@ Welcome to the **Lexfy** repository. This is a native Android application that i
 
 ---
 
+<div align="center">
+
 ## 🔧 Highlighted Features
 
 | Feature | Description |
-|--------|------------|
+| :---: | :---: |
 | **Multi-Model OCR** | Choose between EasyOCR and GOT-OCR2_0. |
 | **AI Image Generator** | Chat-based image generation. |
 | **Document Management** | Store, edit, and delete OCR results. |
 | **Smart Chat History** | Organized by time periods. |
 
----
+</div>
 
 ## 📸  Demo
 
@@ -175,4 +177,4 @@ python finalApp.py
 ## 🔗 Resources
 
 [![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XUEhTPYmGi4)
-[![Manual%20(ES)](https://img.shields.io/badge/Manual%20(ES)-8A2BE2?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/Lexfy_Manual.pdf)
+[![Manual%20(ES)](https://img.shields.io/badge/PDF-Manual%20(ES)-8A2BE2?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/Lexfy_Manual.pdf)
