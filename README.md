@@ -52,12 +52,12 @@ Welcome to the **Lexfy** repository. This is a native Android application that i
 
 ## 🔧 Highlighted Features
 
-| Feature | Description |
-| :---: | :---: |
-| **Multi-Model OCR** | Choose between EasyOCR and GOT-OCR2_0. |
-| **AI Image Generator** | Chat-based image generation. |
+|         Feature         | Description |
+|:-----------------------:| :---: |
+|   **Multi-Model OCR**   | Choose between EasyOCR and GOT-OCR2_0. |
+|  **Image Generation**   | Chat-based image generation. |
 | **Document Management** | Store, edit, and delete OCR results. |
-| **Smart Chat History** | Organized by time periods. |
+|    **Chat History**     | Organized by time periods. |
 
 </div>
 
