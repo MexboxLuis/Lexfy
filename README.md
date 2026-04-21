@@ -4,8 +4,9 @@
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white)](https://developer.android.com/jetpack/compose)
 [![Python](https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/docs/transformers/index)
 
-Welcome to the **Lexfy** repository. This is a native Android application that integrates Optical Character Recognition (OCR) and AI-powered image generation into a cohesive platform. It allows users to extract text from physical documents using OCR models such as EasyOCR and GOT-OCR2_0, and generate images from text prompts using Together AI (FLUX.1-schnell) through a conversational chat interface.
+Welcome to the **Lexfy** repository. This is a native Android application that integrates Optical Character Recognition (OCR) and image generation from text prompts using Together AI (FLUX.1-schnell) into a cohesive platform. It allows users to extract text from physical documents using OCR models such as EasyOCR and GOT-OCR2_0, and generate images through a conversational chat interface.
 
 ---
 
@@ -34,6 +35,7 @@ Welcome to the **Lexfy** repository. This is a native Android application that i
 ### Backend & AI Models
 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)
 
 - **Python & Flask:** Backend server (`finalApp.py`) processes images and prompts.
 - **OCR Models:** EasyOCR and GOT-OCR2_0 for text extraction.
@@ -57,31 +59,70 @@ Welcome to the **Lexfy** repository. This is a native Android application that i
 
 ---
 
-## 📸  Demos
+## 📸  Demo
 
-### 🔐 Authentication
+### 🔐 Authentication & UX Flow
 <p align="center">
-  <img src="assets/lexfy_register.gif" width="250"/>
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="assets/lexfy_register.gif" width="220"/><br>
+        <sub>Register</sub>
+      </td>
+      <td align="center">
+        <img src="assets/lexfy_ocr_ux.gif" width="220"/><br>
+        <sub>OCR Flow</sub>
+      </td>
+      <td align="center">
+        <img src="assets/lexfy_another_user.gif" width="220"/><br>
+        <sub>Different User Flow</sub>
+      </td>
+    </tr>
+  </table>
 </p>
+
+---
 
 ### 🧾 OCR (Image → Text)
 <p align="center">
-  <img src="assets/lexfy_gotocr2.gif" width="215"/>
-  <img src="assets/lexfy_easyocr.gif" width="215"/>
-  <img src="assets/lexfy_gotocr2_image.gif" width="215"/>
-  <img src="assets/lexfy_easyocr_image.gif" width="215"/>
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="assets/lexfy_gotocr2.gif" width="200"/><br>
+        <sub>GOT-OCR2_0 • camera photo</sub>
+      </td>
+      <td align="center">
+        <img src="assets/lexfy_easyocr.gif" width="200"/><br>
+        <sub>EasyOCR • camera photo</sub>
+      </td>
+      <td align="center">
+        <img src="assets/lexfy_gotocr2_image.gif" width="200"/><br>
+        <sub>GOT-OCR2_0 • gallery image</sub>
+      </td>
+      <td align="center">
+        <img src="assets/lexfy_easyocr_image.gif" width="200"/><br>
+        <sub>EasyOCR • gallery image</sub>
+      </td>
+    </tr>
+  </table>
 </p>
+
+---
 
 ### 🖼️ Image Generation (Text → Image)
 <p align="center">
-  <img src="assets/lexfy_image_generation_chats.gif" width="250"/>
-  <img src="assets/lexfy_image_generation_chatting.gif" width="250"/>
-</p>
-
-### 📱 UX & Flow
-<p align="center">
-  <img src="assets/lexfy_ocr_ux.gif" width="250"/>
-  <img src="assets/lexfy_another_user.gif" width="250"/>
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="assets/lexfy_image_generation_chats.gif" width="240"/><br>
+        <sub>Chat generation</sub>
+      </td>
+      <td align="center">
+        <img src="assets/lexfy_image_generation_chatting.gif" width="240"/><br>
+        <sub>Saved chats</sub>
+      </td>
+    </tr>
+  </table>
 </p>
 
 ---
@@ -92,7 +133,9 @@ Welcome to the **Lexfy** repository. This is a native Android application that i
 
 ```bash
 git clone https://github.com/MexboxLuis/Lexfy.git
-cd Lexfy/app/src/main/java/com/example/yoloapp/ui/model
+cd Lexfy
+# Navigate to backend directory if needed
+cd app/src/main/java/com/example/yoloapp/ui/model
 ```
 
 ```bash
@@ -128,3 +171,8 @@ python finalApp.py
 #### Run
 - Sync Gradle
 - Run on emulator or physical device
+
+## 🔗 Resources
+
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XUEhTPYmGi4)
+[![Manual PDF (Es)](https://img.shields.io/badge/PDF-Documentation-8A2BE2?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/Lexfy_Manual.pdf)
