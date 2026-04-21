@@ -175,4 +175,4 @@ python finalApp.py
 ## 🔗 Resources
 
 [![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XUEhTPYmGi4)
-[![Manual PDF (Es)](https://img.shields.io/badge/PDF-Documentation-8A2BE2?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/Lexfy_Manual.pdf)
+[![Manual%20(ES)](https://img.shields.io/badge/Manual%20(ES)-8A2BE2?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/Lexfy_Manual.pdf)
